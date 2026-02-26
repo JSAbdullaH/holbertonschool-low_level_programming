@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * int print_sign  - print the char is alphabet or not
+ * print_sign  - check the sign of number
  *
- * @c: the char to check
- * Return: 1 if c alphabet , 0 othgrwise
+ * @n: the int to check
+ * Return: 1 if great than 0 , 0 if its equal 0 , -1 if its negitive
  */
 int print_sign(int n)
 {
-    if (n > 0)
-    return(1);
-    else if (n = 0)
-    return(0);
-    else
-    return(-1);
+	if (n > 0)
+		return (1);
+	else if (n == 0)
+		return (0);
+	else
+		return (-1);
 }

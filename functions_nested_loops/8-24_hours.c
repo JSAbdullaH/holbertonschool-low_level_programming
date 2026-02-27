@@ -2,28 +2,24 @@
 #include <time.h>
 
 /**
- *jack_bauer  - print the time 
+ *jack_bauer  - print the time
  *
- * @h: hours
- * @m: minutes
- * Return: void no return 
+ * Return: void no return
  */
 void jack_bauer(void)
 {
-    int h , m;
+	int h, m;
 
-    for (h = 0; h < 24; h++)
-    {
-        for (m = 0; m < 60; m++)
-        {
+	for (h = 0; h < 24; h++)
+	{
+		for (m = 0; m < 60; m++)
+		{
 			_putchar('0' + h / 10);
 			_putchar('0' + h % 10);
 			_putchar(':');
 			_putchar('0' + m / 10);
 			_putchar('0' + m % 10);
 			_putchar('\n');
-        }
-        
-    }
-    
+		}
+	}
 }

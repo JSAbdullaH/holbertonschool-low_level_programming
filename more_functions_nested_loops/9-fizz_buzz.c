@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *main - print number and print Fizz and Buzz and FizzBuzz
@@ -28,6 +29,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	_putchar('\n');
+printf("\n");
 	return (0);
 }

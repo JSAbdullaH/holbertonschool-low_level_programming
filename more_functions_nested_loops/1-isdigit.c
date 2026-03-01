@@ -3,13 +3,14 @@
 /**
  *_isdigit - get char and check its digit or not
  *
+ *@c: int that check
+ *
  *Return: 1 if its digit , 0 otherwise
  */
 int _isdigit(int c)
 {
-    if(c >= '0' && c <= '9')
-    return (1);
-    else
-    return (0);
-
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }

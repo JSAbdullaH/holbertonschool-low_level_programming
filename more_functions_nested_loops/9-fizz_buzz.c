@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+ *main - print number and print Fizz and Buzz and FizzBuzz
+ *
+ *Return: void
+ */
+int main(void){
+        for (int i = 1; i <= 100; i++)
+        {
+            if(i % 3 == 0 && i % 5 == 0)
+            {
+                printf("FizzBuzz ");
+            }
+            else if (i % 3 == 0)
+            {
+                printf("Fizz ");
+            } 
+            else if (i % 5 == 0)
+            {
+                printf("Buzz ");
+            }
+            else{
+                printf("%d ", i);
+            }
+	}
+}

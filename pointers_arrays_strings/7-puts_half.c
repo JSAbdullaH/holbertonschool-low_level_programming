@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *swap_int - swap values of two integers
+ *puts_half - print second half of a string
  *
- *@a: pointer to first integer
- *@b: pointer to second integer
+ *@str: pointer to first character of string
  *Return: void
  */
 void puts_half(char *str)

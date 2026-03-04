@@ -7,7 +7,7 @@
  *@s2: pointer to second string
  *Return: integer value
  */
-char *_strcmp(char *s1, char *s2)
+char _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 

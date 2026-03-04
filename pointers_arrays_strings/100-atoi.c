@@ -38,12 +38,3 @@ int _atoi(char *s)
 
     return ((int)(result * sign));
 }
-
-int main(void)
-{
-	int nb;
-
-	nb = _atoi("-2147483648");
-	printf("%d\n", nb);
-	return (0);
-}

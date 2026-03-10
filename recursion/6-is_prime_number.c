@@ -1,23 +1,32 @@
 #include "main.h"
 
 /**
- * is_prime_number - checks if a number is prime
- * @n: the number
- * Return: integer representing whether the number is prime
+ * is_prime_helper - recursive helper to test divisibility
+ * @n: number to test
+ * @divisor: current divisor to check
+ * Return: 1 if prime, 0 if not
+ */
+static int is_prime_helper(int n, int divisor)
+{
+if (divisor * divisor > n)
+return (1);
+if (n % divisor == 0)
+return (0);
+return (is_prime_helper(n, divisor + 2));
+}
+
+/**
+ * is_prime_number - returns 1 if n is prime, 0 otherwise
+ * @n: integer to check
+ * Return: 1 if prime, 0 if not
  */
 int is_prime_number(int n)
 {
 if (n <= 1)
-{
-return 0;
-}
+return (0);
 if (n == 2)
-{
-return 1;
-}
+return (1);
 if (n % 2 == 0)
-{
-return 0;
-}
-return is_prime_helper(n, 3);
+return (0);
+return (is_prime_helper(n, 3));
 }

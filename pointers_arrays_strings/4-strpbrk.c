@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - locates the first occurrence of any character from a set 
+ * _strpbrk - locates the first occurrence of any character from a set
  * @s: pointer to string
  * @accept: pointer to accepted characters
  * Return: pointer to the first occurrence of any or NULL if not found

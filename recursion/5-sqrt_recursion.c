@@ -6,7 +6,7 @@
  * @guess: current value being tested
  * Return: square root if found, -1 if none
  */
-static int sqrt_helper(int n, int guess)
+int sqrt_helper(int n, int guess)
 {
 if (guess * guess == n)
 return (guess);

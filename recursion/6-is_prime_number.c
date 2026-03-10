@@ -6,7 +6,7 @@
  * @divisor: current divisor to check
  * Return: 1 if prime, 0 if not
  */
-static int is_prime_helper(int n, int divisor)
+int is_prime_helper(int n, int divisor)
 {
 if (divisor * divisor > n)
 return (1);

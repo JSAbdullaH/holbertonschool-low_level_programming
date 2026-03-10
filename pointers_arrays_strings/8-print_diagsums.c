@@ -2,7 +2,8 @@
 
 /**
  * print_diagsums - prints the sums of the diagonals of a square matrix
- * @a: pointer to the chessboard
+ * @a: pointer to the square matrix
+ * @size: size of the square matrix
  */
 void print_diagsums(int *a, int size)
 {
